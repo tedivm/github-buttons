@@ -9,13 +9,14 @@ import {
 
 export const buttonClass = 'github-button'
 
-export let iframeURL = 'https://' + (/* istanbul ignore next */ process.env.NODE_ENV === 'production' ? 'unpkg.com/' + name + '@' + version + '/dist' : 'buttons.github.io') + '/buttons.html'
+//export let iframeURL = 'https://' + (/* istanbul ignore next */ process.env.NODE_ENV === 'production' ? 'unpkg.com/' + name + '@' + version + '/dist' : 'buttons.github.io') + '/buttons.html'
+export let iframeURL = 'https://gitbuttons.tedivm.com/buttons.html'
 
 export const setIframeURL = /* istanbul ignore next: test only */ function (url) {
   iframeURL = url
 }
-
-export let apiBaseURL = 'https://api.github.com'
+x
+export let apiBaseURL = 'https://stars.gitconsensus.com'
 
 export const setApiBaseURL = /* istanbul ignore next: test only */ function (url) {
   apiBaseURL = url

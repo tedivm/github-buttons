@@ -22,9 +22,9 @@
 
   var buttonClass = 'github-button';
 
-  var iframeURL = 'https://' + (/* istanbul ignore next */ 'buttons.github.io') + '/buttons.html';
-
-  var apiBaseURL = 'https://api.github.com';
+  //export var iframeURL = 'https://' + (/* istanbul ignore next */ "development" === 'production' ? 'unpkg.com/' + name + '@' + version + '/dist' : 'buttons.github.io') + '/buttons.html'
+  var iframeURL = 'https://gitbuttons.tedivm.com/buttons.html';
+  var apiBaseURL = 'https://stars.gitconsensus.com';
 
   var useXHR = XMLHttpRequest && XMLHttpRequest.prototype && 'withCredentials' in XMLHttpRequest.prototype;
 
